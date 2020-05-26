@@ -1,0 +1,290 @@
+/*
+    * File Name: index.html v0.12.0
+    * Update: 2020.05.22
+    * Author: wjddntjd119
+*/
+
+/* logo */
+.logo {
+    color: rgb(159, 185, 255);
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+}
+/*fullscreen bg*/
+
+/* main menu */
+ul {
+    height: 30px;
+    margin: 0;
+    padding: 10px 15px 25px 15px;
+    background: rgb(49.49,49);
+    list-style: none;
+    background-color: rgb(97, 235, 201);
+
+}
+ul li {
+    float: left;
+    margin: 10px;
+}
+.menu li {
+    
+    color: rgb(55, 29, 202);
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: 'Nanum Pen Script', cursive;
+}
+a:link { color: rgb(4, 0, 255); text-decoration: none;}
+a:visited { color: black; text-decoration: none;}
+.menu li a:hover { color: rgb(79, 68, 236); text-decoration: none;}
+.menu li ul a:hover { color: rgb(243, 97, 231); text-decoration: none;}
+
+.menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+.menu li ul {
+    background: rgb(197, 241, 247);
+    display:none;
+    height:auto;
+    padding:0px;
+    margin:0px;
+    border:0px;
+    position:absolute;
+    width:200px;
+    z-index:200;
+}
+.menu li:hover ul {
+    display:block;
+}
+/* article background */
+.menu-bg{
+    
+    height: 300px;
+    padding: 15px;
+    text-align: center;
+    background-color: rgb(104, 104, 175);
+
+}
+.content-bg{
+    
+    height: 550px;
+    padding: 15px;
+    text-align: center;
+    background-color: rgb(238, 181, 95);
+
+}
+.content-bg2{
+    
+    height: 450px;
+    padding: 15px;
+    text-align: center;
+    background-color: rgb(132, 243, 128);
+
+}
+.content-bg3{
+    
+    height: 450px;
+    padding: 15px;
+    text-align: center;
+    background-color: rgb(128, 220, 243);
+
+}
+.sec-title{
+    
+    height: 70px;
+    padding: 15px;
+    text-align: center;
+    background-color: rgb(155, 87, 243);
+
+}
+footer{
+    height: 25px;
+    padding: 15px;
+    text-align: center;
+    background-color: rgb(165, 156, 250);
+}
+.homework{
+    
+    height: 400px;
+    padding: 15px;
+    text-align: center;
+    background-color: rgb(220, 162, 247);
+}
+/* box medel test */
+.box1{
+    display:  inline-block;
+    width: 20%;
+    height: 150px;
+    margin: 10px;
+    padding: 10px;
+    background-color: brown;
+    border: 10px solid black;
+}
+.box2{
+    display:  inline-block;
+    width: 20%;
+    height: 150px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 25px;
+    background-color: brown;
+    border: 10px dotted black;
+}
+.box3{
+    display:  inline-block;
+    width: 20%;
+    height: 150px;
+    margin: 10px;
+    padding: 10px;
+    background-color: brown;
+    border: 10px solid black;
+    box-shadow: 10px 10px 5px 5px black;
+}
+
+/* 멀티미디어 연습 */
+.img1 {
+    width: 250px;
+    height: 250px;
+    margin: 30px 20px;
+}
+.img2 {
+    width: 250px;
+    height: 100px;
+    margin: 30px 20px;
+}
+.img-radius1 {
+    border-radius: 10%;
+}
+.img-radius2 {
+    border-radius: 25%;
+}
+.img-radius3 {
+    border-radius: 50%;
+}
+.img-radius4 {
+    border-radius: 100%;
+}
+/*테이블 연습*/
+thead{
+    background-color: rgb(183, 144, 255);
+    color: #fff;
+}
+tfoot{
+    background-color: rgb(24, 74, 240);
+    color: #fff;
+}
+tbody{
+    background-color: rgb(255, 255, 255);
+    
+}
+table{
+    width:500px;
+    height:300px;
+    border-collapse: collapse;
+    border: 1px solid rgb(0,0,0);
+}
+td,th{
+    border: 1px solid rgb(0,0,0);
+    padding: 10px 30px;
+}
+td{
+    text-align: center;
+}
+caption{
+    border: 1px solid rgb(0,0,0);
+    border-bottom: none;
+    color:white;
+    background-color: rgb(233, 78, 104);
+    font-weight: bold;
+    padding: 10px 10px;
+}
+.bold{
+    font-weight: bold;
+}
+.game{
+    color: rgb(24, 74, 240);
+}
+.game2{
+    background-color: rgb(109, 48, 12);
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+.sec-left{
+    background-color: rgb(231, 240, 113);
+    color: white;
+    float:left;
+    height: 400px;
+    line-height:35px;
+    text-align: center;
+    width:50%;
+}
+.sec-right{
+    background-color: rgb(121, 241, 147);
+    color: white;
+    float: right;
+    height: 400px;
+    line-height:35px;
+    text-align: center;
+    width:50%;
+}
+.grid-container{
+    background-color: rgb(207,42,42);
+    display: grid;
+    height:540px;
+    grid: 100px 100px 100px 100px 100px/auto auto auto;
+    grid-gap: 10px;
+    padding: 10px;
+}
+.grid-item{
+    background-color: white;
+    font-size: 30px;
+    padding: 20px;
+    text-align: center;
+}
+.item1{
+    padding-top: 30px;
+    grid-column:1/4;
+}
+.item2{
+    grid-column:1/3;
+}
+.item3{
+    grid-column: 3/4;
+    grid-row:2/4;
+}
+.item10{
+    grid-column:2/4;
+}
+.full-bg{
+    background: url(./images/mckenzie-river-5129717_1920.jpg) no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+    width:100%;
+    display: table;
+}
+.container {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+.header-title {
+    display: inline-block;
+    width: 50%;
+    height: 140px;
+    font-size: 35px;
+    font-weight: bold;
+    padding-top: 25px;
+    background: rgba(253, 153, 60, 0.8);
+    color:#fff;
+    border: rgb(7, 2, 80);
+    border-style: solid;
+}
+.header-sub-title{
+    font-size: 20px;
+    color:rgb(45, 34, 211);
+    padding-top: 25px;
+}

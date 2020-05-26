@@ -1,0 +1,153 @@
+<!--
+    * File Name: index.html v0.12.0
+    * Update: 2020.05.22
+    * Author: wjddntjd119
+-->
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>정우성의 홈페이지</title>
+    <!-- css초기화 / normalize.css -->
+    <link rel="stylesheet" href="./vendor/normalize.css">
+    <!-- CSS의 외부 적용 방식 -->
+    <link rel="stylesheet" href="main.css">
+    <!-- 구글 웹폰트 삽입 -->
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class = "full-bg">
+        <div class="container">
+            <div class="header-title">
+                Jeong Woo Sung의 홈페이지
+                <p class="header-sub-title">2020년 1학기 내용이 정리된<br> 밝은 분위기의 홈페이지를 제작해보자!</p>
+            </div>
+        </div>
+    </header>
+    <div class="menu">
+        <ul>
+            <li class ="logo">정우성</li>
+            <li><a href="#">One Page</a>
+                <ul>
+                    <li><a href="#box">박스모델 연습</a></li>
+                    <li><a href="#multi">멀티미디어 태그</a></li>
+                    <li><a href="#audio">오디오,비디오 태그연습</a></li>
+                    <li><a href="#youtube">유튜브 동영상 삽입 연습</a></li>
+                    <li><a href="#table">테이블 연습</a></li>
+                    <li><a href="#grid">그리드 연습</a></li>
+                </ul>
+            </li>
+            <li><a href="./bootstrap.html">BootStrap</a></li>
+            <li><a href="#">메뉴3</a></li>
+        </ul>
+    </div>
+    <article class="menu-bg" id="box">
+        <h1>4월 9일 박스모델 연습</h1>
+        <section>
+            <div class="box1">박스1</div>
+            <div class="box2">박스2</div>
+            <div class="box3">박스3</div>
+        </section>
+    </article>
+    <article class="content-bg" id="multi">
+        <h1>4월17일 멀티미디어 태그</h1>
+        <section>
+            <img class="img1" src="./images/phone-1052023_640.jpg" alt="책과 스마트폰 지식의 보고" width="100" height="100">
+            <img class="img1 img-radius1" src="./images/phone-1052023_640.jpg" alt="책과 스마트폰 지식의 보고" width="100" height="100">
+            <img class="img1 img-radius2" src="./images/phone-1052023_640.jpg" alt="책과 스마트폰 지식의 보고" width="100" height="100">
+            <img class="img1 img-radius3" src="./images/phone-1052023_640.jpg" alt="책과 스마트폰 지식의 보고" width="100" height="100">
+            <img class="img1 img-radius4" src="./images/phone-1052023_640.jpg" alt="책과 스마트폰 지식의 보고" width="100" height="100">
+        </section>
+        <section>
+            <img class="img2" src="./images/phone-1052023_640.jpg" alt="책과 스마트폰 지식의 보고" width="100" height="100">
+            <img class="img2 img-radius1" src="./images/phone-1052023_640.jpg" alt="책과 스마트폰 지식의 보고" width="100" height="100">
+            <img class="img2 img-radius2" src="./images/phone-1052023_640.jpg" alt="책과 스마트폰 지식의 보고" width="100" height="100">
+            <img class="img2 img-radius3" src="./images/phone-1052023_640.jpg" alt="책과 스마트폰 지식의 보고" width="100" height="100">
+            <img class="img2 img-radius4" src="./images/phone-1052023_640.jpg" alt="책과 스마트폰 지식의 보고" width="100" height="100">
+        </section>
+    </article>
+    <article class="content-bg2" id="audio">
+        <h1>Audio, Video 태그 연습</h1>
+        <section>
+            <audio controls>
+                <source src="https://file-examples.com/wp-content/uploads/2017/11/file_example_MP3_700KB.mp3">
+                현재 브라우저에서는 오디오 태그를 지원하지 않습니다.
+            </audio>
+            <video width="350px" height="250px" controls>
+                <source src="./video/Flower - 31953.mp4">
+                현재 브라우저에서는 비디오 태그를 지원하지 않습니다.
+            </video>
+        </section>
+    </article>
+    <article class="homework" id="youtube">
+        <section>
+            <h2>유튜브 동영상 삽입 연습</h2>
+            <section>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/0H8PR0NEQUE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </section>
+        </section>
+    </article>
+    <article class="content-bg3" id="table">
+        <h2>4월 29일 테이블 연습</h2>
+        <section>
+            <table align="center">
+                <caption>테이블연습(나만의 테이블 만들기)</caption>
+                <thead>
+                    
+                    <tr>
+                        <th colspan="6">깜짝 두뇌 퀴즈!</th>
+                    </tr>
+                </thead>    
+                    <tr>
+                        <td class="bold" colspan="3" rowspan="4">
+                            길을 걸어가다 <span class="game2">벽</span>에<br><span class="game2">3X3</span>으로 이루어진<br>낙서를 발견했습니다.
+                        </td>
+                        <td class="bold" colspan="3">다음 ?에 들어갈 <br>알맞은 값을 구하시오.</td>
+                    </tr>
+                    <tr>
+                        <td class="game2">7</td>
+                        <td class="game2">12</td>
+                        <td class="game2">11</td>
+                    </tr>
+                    <tr>
+                        <td class="game2">14</td>
+                        <td class="game2">?</td>
+                        <td class="game2">6</td>
+                    </tr>
+                    <tr class="game2">
+                        <td>9</td>
+                        <td>8</td>
+                        <td>13</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="6">힌트(옆을 드래그 해보세요.) : <span class="game">마방진</span> <- </td>
+                    </tr>
+                </tfoot>
+            </table>
+        </section>
+    </article>
+    <section class="sec-title" id="grid">
+        <h2>4월 28일 : grid 연습</h2>
+    </section>
+    <section class="sec-left">left section</section>
+    <section class="sec-right">right section</section>
+    
+    <article class="grid-container">
+        <div class="grid-item item1">5월6일 : CSS Grid</div>
+        <div class="grid-item item2">2</div>
+        <div class="grid-item item3">3</div>
+        <div class="grid-item">4</div>
+        <div class="grid-item">5</div>
+        <div class="grid-item">6</div>
+        <div class="grid-item">7</div>
+        <div class="grid-item">8</div>
+        <div class="grid-item">9</div>
+        <div class="grid-item item10">10</div>
+    </article>
+<footer>Copyright &copy; 2020 정우성. All rights reserved.
+</footer>
+</body>
+</html>
