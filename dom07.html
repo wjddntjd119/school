@@ -1,5 +1,5 @@
 <!--
-    * File Name: dom02.html v0.0.0
+    * File Name: dom07.html v0.0.0
     * Update: 2020.05.26
     * Author: wjddntjd119
 -->
@@ -9,19 +9,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X=UA-Compatible" content="ie=edge">
-    <title>dom02</title>
+    <title>dom07</title>
     <script>
         window.onload = function(){
-            var header = document.getElementById('header');
-            header.style.color = 'blue';
-            header.style.background = 'yellow';
-            header.innerHTML = '자바스크립트 DOM 연습중';
+            document.body.setAttribute('bgcolor','violet');
+
+            var data = document.body.getAttribute('bgcolor');
+            alert(data);
         };
     </script>
 </head>
 <body>
-    
-    <h1 id="header">아무것도 적지 않아도 문장이 삽입됩니다.</h1>
-
 </body>
 </html>
