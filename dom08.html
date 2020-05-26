@@ -1,5 +1,5 @@
 <!--
-    * File Name: dom07.html v0.0.0
+    * File Name: dom08.html v0.0.0
     * Update: 2020.05.26
     * Author: wjddntjd119
 -->
@@ -9,19 +9,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X=UA-Compatible" content="ie=edge">
-    <title>dom07</title>
+    <title>dom08</title>
     <script>
         window.onload = function(){
-
+            // 문서 객체 선택
             var clock = document.getElementById('clock');
             setInterval(function(){
                 var now = new Date();
                 clock.innerHTML = now.toString();
             }, 1000);
+
+            document.getElementById('button').onclick =function(){
+                this.textContent = this.textContent + '★';
+            }
         };
+        function buttonClick(){
+                alert('버튼을 클릭했습니다.');
+            }
     </script>
 </head>
 <body>
     <h1 id="clock"></h1>
+    <button onclick="buttonClick()">버튼클릭</button>
+    <button id="button">버튼 -</button>
 </body>
 </html>
