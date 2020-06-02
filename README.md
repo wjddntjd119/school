@@ -1,4 +1,20 @@
 # Project2020 - 정우성
+## 05월 28일 JSP, DOM의 이해와 실습
+> JSP의 기본문법들<br>
+DOM의 개요와 이해<br>
+DOM1 - document.querySelector( )를 이용한 h1 tag 글자,배경 색상 변경<br>
+DOM2 - document.getElementById( )를 이용한 id 값을 header로 갖는 h1에 글자,배경색 + innerHTML을 이용한 내용 지정하기<br>
+DOM3 - document.querySelectorAll( ) 과 for문을 이용한 문서 객체의 내용을 조작<br>
+SPA(Single Page Application)의 이해<br>
+DOM4 - SPA를 바탕으로 h1 ~ h6까지 내용 자동 생성<br>
+DOM5 - SPA를 사용하여 red 에서 blue 로 그라데이션 생성<br>
+DOM6 - Placehold.com의 리소스를 이용하여 문서 객체 조작<br>
+DOM7 - setAttribute( ), getAttribute( )를 이용한 속성의 지정과 속성값을 추출<br>
+DOM8 - Date()객체를 이용한 실시간 시간표시와<br>
+button 속성을 이용한 누르면 alert 를 띄우는 버튼과<br>
+누르면 ★을 출력하는 버튼 생성<br>
+
+
 ## 05월 22일 Bootsrap의 다양한 기능 배우기
 >bootsrap.html 생성<br>
 bootsrap navbar 생성<br>
